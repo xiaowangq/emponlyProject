@@ -1,0 +1,32 @@
+.combo{
+    width: 100%;
+}
+.combo-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    .combo-img{
+        max-height: 200px;
+        max-width: 240px;
+        object-fit: contain;
+        border-radius: 10px;
+    };
+    .choose-date{
+        width: 100%;
+    };
+}
+.select-combo-order{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    gap:32px;
+    .comfirm-number{
+        display:flex;
+        align-items:center;
+    }
+}
