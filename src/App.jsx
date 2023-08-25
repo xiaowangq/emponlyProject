@@ -38,7 +38,6 @@ function App() {
        
     }
   }
-三四十岁
   //全局消息设置
   const sendNotification = (type,description)=>{
     dispatch(setMsg({msg:{type,description}}));
